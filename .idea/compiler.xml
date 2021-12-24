@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lgd-common (2) (com.lgd)" />
+        <module name="situation-common" />
+        <module name="situation-eureka" />
+        <module name="situation-file-upload" />
+        <module name="situation-packet-capture" />
+        <module name="situation-packet-send" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lgd-common (2) (com.lgd)" target="1.5" />
+      <module name="situation-command" target="1.8" />
+      <module name="situation-common" target="1.8" />
+      <module name="situation-eureka" target="1.8" />
+      <module name="situation-file-upload" target="1.8" />
+      <module name="situation-packet-capture" target="1.8" />
+      <module name="situation-packet-send" target="1.8" />
+      <module name="situation-parent" target="1.8" />
+      <module name="situation-web-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

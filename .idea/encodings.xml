@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/situation-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/situation-parent/situation-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/situation-parent/situation-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/situation-parent/situation-web-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/situation-parent/situation-web-parent/situation-file-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/situation-parent/situation-web-parent/situation-packet-capture" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/situation-parent/situation-web-parent/situation-packet-send" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Lgd-changgou/lgd-parent/lgd-common/target/lgd-common-1.0-SNAPSHOT/META-INF/maven/com.lgd/situation-parent" charset="UTF-8" />
+    <file url="file://E:/工具/5g测量/项目/RDA2/src/util/async/MainGeneric.java" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/situation-parent/situation-common/situation-common.iml" filepath="$PROJECT_DIR$/situation-parent/situation-common/situation-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/situation-parent/situation-eureka/situation-eureka.iml" filepath="$PROJECT_DIR$/situation-parent/situation-eureka/situation-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/situation-parent/situation-web-parent/situation-file-upload/situation-file-upload.iml" filepath="$PROJECT_DIR$/situation-parent/situation-web-parent/situation-file-upload/situation-file-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/situation-parent/situation-web-parent/situation-packet-capture/situation-packet-capture.iml" filepath="$PROJECT_DIR$/situation-parent/situation-web-parent/situation-packet-capture/situation-packet-capture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/situation-parent/situation-web-parent/situation-packet-send/situation-packet-send.iml" filepath="$PROJECT_DIR$/situation-parent/situation-web-parent/situation-packet-send/situation-packet-send.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lgd-changgou/lgd-parent/lgd-common/target/lgd-common-1.0-SNAPSHOT/META-INF/maven/com.lgd/situation-parent/situation-parent.iml" filepath="$PROJECT_DIR$/../Lgd-changgou/lgd-parent/lgd-common/target/lgd-common-1.0-SNAPSHOT/META-INF/maven/com.lgd/situation-parent/situation-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/situation-parent/situation-web-parent/situation-web-parent.iml" filepath="$PROJECT_DIR$/situation-parent/situation-web-parent/situation-web-parent.iml" />
+    </modules>
+  </component>
+</project>
