@@ -66,6 +66,27 @@ public class ConnectToServer implements Serializable {
     public ConnectToServer() {
     }
 
+    public Connection getConnectionByCustomParam(String ip,String username,String password,File publicKey) throws IOException {
+        Connection connection=new Connection(ip);
+        connection.connect();
+
+        //授权
+        if (publicKey!=null){
+            boolean isconnect = connection.authenticateWithPublicKey(username, publicKey, password);
+            if (isconnect){
+                return connection;
+            }else {
+                throw new RuntimeException("连接失败  私钥错误 or用户名密码无效");
+            }
+        }else {
+            boolean isconnect = connection.authenticateWithPassword(username, password);
+            if (isconnect){
+                return connection;
+            }else {
+                throw new RuntimeException("连接失败  用户名密码无效" );
+            }
+        }
+    }
     /**
      * 获取linux 连接  账号密码
      * @return

@@ -5,12 +5,15 @@ import ch.ethz.ssh2.Connection;
 import ch.ethz.ssh2.ConnectionInfo;
 import ch.ethz.ssh2.Session;
 import com.alibaba.fastjson.JSON;
+import com.situation.entity.CaptureEntity;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.util.ResourceUtils;
 
 import java.io.*;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -106,4 +109,16 @@ public class test {
 
 
     }
+    @Test
+    public void test3(){
+        Date date=new Date();
+        System.out.println(date.getTime()/1000);
+        SimpleDateFormat simpleDateFormat=new SimpleDateFormat(CaptureEntity.fromat);
+
+        String format = simpleDateFormat.format(date);
+        long second=System.currentTimeMillis()/ 1000;
+
+//        simpleDateFormat.
+    }
+
 }
